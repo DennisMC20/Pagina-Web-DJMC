@@ -1,0 +1,114 @@
+body{
+    clear: both;
+    margin: 50px;
+    inline-size: 80%;
+    text-align: start;
+    background-color:blue;
+   
+        
+}
+.Main{
+    background-color:burlywood;
+    border-radius: 5px;
+    overflow: hidden;
+    line-height: 30px;
+}
+.Content{
+    inline-size: 70%;
+    float: inline-start;    
+}
+
+.pageHeader nav{
+background: #2BA6CB;
+block-size: 40px;
+margin: 0 30px auto;
+text-align: center;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+.pageHeader nav ul{
+margin: 0 auto;
+}
+.pageHeader nav ul li{
+    float: inline-start;
+    display: inline;
+}
+
+.pageHeader nav a:link, .pageHeader nav a:visited{
+    color:black;
+    display: inline-block;
+    block-size: 30px;
+    padding: 5px 23px;
+    text-decoration: none;
+}
+.pageHeader nav a:hover, .pageHeader nav a:active,
+.pageHeader nav .active a:link, .pageHeader nav .active a:visited{
+    background: #2795B6;
+    color:crimson; 
+}
+
+.Main{
+    overflow: hidden;
+    line-height: 30px;
+
+}
+
+.Top{
+    margin-block-end: 3%;
+}
+.Content{
+    margin: 2.5rem;
+    inline-size: 70%;
+    float: inline-start;
+}
+
+.Top-sidebar{
+    inline-size: 20%;
+    float: inline-start;
+    margin-inline-start: 2%;
+    padding: 2% 3%;
+    margin-block-end: 2%;
+}
+.Navigation{
+    display: block;
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0.875em 0;
+}
+
+.Bottom-sidebar{
+    inline-size: 20%;
+    float:inline-start;
+    margin-inline-start: 2%;
+    padding: 2% 3%;
+}
+
+.Featured{
+    background: none repeat scroll 0 0 #F2F2F2;
+    border-color:burlywood;
+    border-style: solid;
+    border-width: 1px;
+    margin-block-end: 1.25em; 
+    padding: 1.25em;
+}
+
+.PageFooter{
+
+inline-size: 100%;
+block-size: 40px;
+float: inline-start;
+margin-block-start: 2%;
+margin-block-end: 2%;
+background-color: #2BA6CB;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius:5px;
+color:black;
+}
+
+.PageFooter p{
+width: 90%;
+margin: 2% auto;
+}
